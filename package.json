@@ -1,0 +1,11 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "integrate a mobile website with animation in css",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style1.css"
+  },
+  "author": "Riccardo",
+  "license": "ISC"
+}

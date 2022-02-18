@@ -1,0 +1,35 @@
+/*---------------------------------------------------*/
+.center{
+    text-align: center;
+}
+
+.shadow{
+    box-shadow: 4px 4px 4px 2px $color-shadow;
+}
+
+header{
+    height: 55px;
+}
+
+main{
+    min-height: 500px;
+}
+
+.logo{
+    height:55px;
+    & img{
+        width: 50%;
+        margin-top: 15px;
+    }
+}
+
+.logo-menu{
+    height:55px;
+    & img{
+        width: 50%;
+        margin-top: 15px;
+        margin-left: -30px;
+    }
+}
+
+/*---------------------------------------------------*/

@@ -1,0 +1,35 @@
+/*-----------------------------------------------------------------------------*/
+/*footer*/
+footer{
+    background-color: $color-footer;
+    min-height: 230px;
+}
+.logo-footer{
+    color: white;
+    font-size: 20px;
+    margin-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row-fot{
+    display: flex;
+    padding-bottom: 10px;
+    &__icon{
+        height: 20px;
+        width: 15%;
+        color: white;
+        padding-top: 2px;
+    }
+    &__text{
+        height: 20px;
+        width: 85%;
+        color: white;
+    }
+    &__text1{
+        height: 20px;
+        color: white;
+        margin-left:20px;
+    }
+}
+/*-----------------------------------------------------------------------------*/

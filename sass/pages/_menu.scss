@@ -1,0 +1,122 @@
+/*menu header*/
+.head{
+    display:flex;
+}
+
+.back{
+    margin: auto;
+    margin-left: 20px;
+}
+.fa-arrow-left{
+    font-size: 20px;
+}
+
+/*.logo-menu img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: -30px;
+}*
+/*---------------------------------------------------*/
+/*menu dish image*/
+.background-img{
+    height: 250px;
+    & img{
+        height: 120%;
+        width: 100%;
+        object-fit:cover;
+    }
+}
+/*---------------------------------------------------*/
+/*menu*/
+.background{
+    background-color: $background-grey;
+    min-height: 450px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+}
+.menu-title-favorite{
+    display:flex;
+}
+
+.menu-title{
+    font-size:25px;
+    width: 90%;
+    margin-top: 25px;
+    margin-left:10px;
+}
+
+.menu-favorite{
+    width: 10%;
+    margin:auto;
+    margin-top: 35px;
+}
+
+.fa-heart{
+    font-size:20px;
+}
+
+.course{
+    height: 30px;
+    margin-left:10px;
+    margin-top: 35px;
+
+}
+
+.line{
+    height: 10px;
+    margin-left:20px;
+    margin-top: -15px;
+    color: $color-tertiary;
+}
+
+.fa-minus{
+    transform: scale(2.7,1);
+}
+
+.dish-box{
+    border-radius: 15px;
+    background-color: white;
+    height: 70px;
+    width: 95%;
+    margin:auto;
+    margin-top:14px;
+    display:flex;
+    box-shadow: 4px 4px 4px 2px #dcdcdc;
+    &__text{
+        width: 90%;
+        height: 50px;
+        margin: auto;
+        &__title{
+            height: 20px;
+            margin-left:10px;
+        }
+        &__comment{
+            height: 20px;
+            margin-left:10px;
+            font-size: 14px;
+            margin-top:7px
+        }
+    }
+    &__price{
+        width: 15%;
+        height: 20px;
+        margin: auto;
+        margin-top: 37px;
+    }
+}
+
+.order-button{
+    height:200px;
+}
+
+button{
+    height: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(2deg, $color-primary, $color-secondary);
+    color: white;
+    border: none;
+    width: 50%;
+    margin-top:50px;
+    box-shadow: 4px 4px 4px 2px $color-shadow;
+}
