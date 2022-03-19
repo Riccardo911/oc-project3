@@ -1,0 +1,76 @@
+/*************************************************
+                    LOADER
+*************************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+    background-color: #eee;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 2300px;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: dissapear1 3.5s forwards ease-out;
+}
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    top:-35%;
+    position: relative;
+    border: 4px solid #000;
+    animation: loader 3s forwards ease-out;
+}
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: $color-primary;
+    animation: loader-inner 3s forwards ease-out;
+}
+
+@keyframes dissapear1 {
+    0%,80% {
+        opacity: 1;
+    
+    }
+
+    100%{
+        opacity: 0;
+        display:none;
+        z-index: -1;
+    }
+}
+  
+@keyframes loader {
+    0% { transform: rotate(0deg); opacity: 1;}
+    25% { transform: rotate(180deg);opacity: 1}
+    50% { transform: rotate(180deg);opacity: 1}
+    75% { transform: rotate(360deg);opacity: 1}
+    100% { transform: rotate(360deg); opacity:0;}
+}
+  
+@keyframes loader-inner {
+    0% { height: 0%; opacity:1;}
+    25% { height: 0%;opacity: 1}
+    50% { height: 100%;opacity: 1}
+    75% { height: 100%;opacity: 1}
+    100% { height: 0%; opacity:0;}
+}
