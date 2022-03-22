@@ -541,7 +541,7 @@ div.favorite .full-heart {
   inline-size: 95%;
   overflow: hidden;
   text-overflow: ellipsis;
-  /*white-space: nowrap;*/
+  white-space: nowrap;
 }
 .dish-box__text__comment {
   height: 20px;
@@ -551,7 +551,7 @@ div.favorite .full-heart {
   inline-size: 95%;
   overflow: hidden;
   text-overflow: ellipsis;
-  /*white-space: nowrap;*/
+  white-space: nowrap;
 }
 .dish-box__price {
   height: 20px;
@@ -571,6 +571,10 @@ div.favorite .full-heart {
 
 .dish-box:hover .add {
   margin-right: 0;
+}
+
+.dish-box:hover .dish-box__text {
+  width: 60%;
 }
 
 .check-icon {

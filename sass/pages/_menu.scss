@@ -88,7 +88,7 @@
             inline-size: 95%;             
             overflow: hidden;                
             text-overflow: ellipsis;      
-            /*white-space: nowrap;*/  
+            white-space: nowrap;  
         }
         &__comment{
             height: 20px;
@@ -98,7 +98,7 @@
             inline-size: 95%;             
             overflow: hidden;             
             text-overflow: ellipsis;      
-            /*white-space: nowrap;*/
+            white-space: nowrap;
         }
     }
     &__price{
@@ -120,6 +120,10 @@
 
 .dish-box:hover .add{
     margin-right: 0;
+}
+
+.dish-box:hover .dish-box__text{
+    width:60%;
 }
 
 .check-icon{
