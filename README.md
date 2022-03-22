@@ -1,3 +1,3 @@
 # oc-project3
-My web page
+Ohmyfood webpage
 https://riccardo911.github.io/oc-project3/
